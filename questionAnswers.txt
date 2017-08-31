@@ -1,0 +1,18 @@
+1. sudo means super user do, It allows a user to run a command with root privledges.
+2. File Structure:
+	poly_crier
+		img
+			rosgraph.png
+			termOutput.png
+		src
+			poly_listener.py
+			poly_talker.py
+		CMakeLists.txt
+		package.xml
+		questionAnswers.txt
+		start.launch
+3. Under the src directory of your package.
+4. Roscore serves as the underlying backbone of ROS, It manages the publish and subscribe board of ROS to allow programs to communicate.
+5. ROS Nodes:
+	talker
+	listener

@@ -1,0 +1,4 @@
+<launch>
+	<node name="crier" pkg="poly_crier" type="poly_talker.py"/>
+	<node name="listener" pkg="poly_crier" output="screen" type="poly_listener.py"/>
+</launch>
